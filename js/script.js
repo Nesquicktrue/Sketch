@@ -7,8 +7,8 @@ let barva;
 
 posuvnikVelikosti.onchange = (e) => {
     pocetPixelu = e.target.value;
-    pole.replaceChildren("");
-    generujPole(pocetPixelu*pocetPixelu);    
+    pole.replaceChildren("");                       // čistím pole
+    generujPole(pocetPixelu ** 2);    
 }
 
 vyberBarvu.addEventListener("input", zmenBarvu, false);
