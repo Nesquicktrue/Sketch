@@ -3,12 +3,9 @@
     margin: 0px;
 }
 .pole {
+    border: 5px solid red ;
     display: grid;
-    grid-template-columns: repeat(16, 10px);
+    width: 400px;
+    height: 400px;
 }
 
-.pixel {
-    width: 10px;
-    height: 10px;
-    background-color: black;
-}
